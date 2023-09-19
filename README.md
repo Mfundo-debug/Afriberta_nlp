@@ -7,7 +7,7 @@
 
 ### Step 2: Data Preprocessing
 1. Choose two text classification tasks from the [OSCAR corpus](https://oscar-corpus.com/), and download the relevant data.
--[x]  Choose two text classification in different African languages from available sources such as the one above.
+- [x]  Choose two text classification in different African languages from available sources such as the one above.
 2. Preprocess the data for each task, including tokenization and encoding.
 - [x] Preparing train-validation-test splits for each task while avoiding data leaks.
 
@@ -20,7 +20,7 @@
 ### Step 4: Fine-tuning AfriBERTA with SIL
 1. Implement seeded iterated leaning (SIL) with the modified version for text classification tasks.
 2. Use the teacher model from Step 3 to seed the SIL process.
--[x] Use the the teacher model (AfriBERTA) to generate soft labels for the student model.
+-[ x] Use the the teacher model (AfriBERTA) to generate soft labels for the student model.
 3. Fine-tune the student model on the second text classification task using soft labels and cross-entropy loss.
 4. Evaluate the student model's performance on the test set using appropriate metrics (accuracy, F1 score, etc.)
 5. Report the results and compare them to the baseline model (fine-tuned AfriBERTA without SIL).
