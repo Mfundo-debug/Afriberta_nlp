@@ -56,8 +56,8 @@
 ### Project Timeline
 
 -   [x] Week 1: Project Proposal
--   [x] Week 2: Environment Setup
--   [x] Week 3: Data Preprocessing
+-   [x] Week 2: Environment Setup ✅
+-   [x] Week 3: Data Preprocessing ⏳
 -   [x] Week 4: Fine-tuning AfriBERTA without SIL
 -   [x] Week 5: Fine-tuning AfriBERTA with SIL
 -   [x] Week 6: Exploring the Effects of SIL (Analysis of SIL Benefits)
